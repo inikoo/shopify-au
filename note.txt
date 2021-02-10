@@ -1,3 +1,19 @@
 #...
 Link: "<https://{shop}.myshopify.com/admin/api/{version}/products.json?page_info={page_info}&limit={limit}>; rel={next}, <https://{shop}.myshopify.com/admin/api/{version}/products.json?page_info={page_info}&limit={limit}>; rel={previous}"
 #...
+
+
+
+https://cae4914bb0f1ce85fc106ada452b4ee6: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@inikoo.myshopify.com/admin/oauth/access_scopes.json
+
+
+
+POST Adds a product to a custom collection
+
+https://{{api_key}}:{{api_password}}@{{store_name}}.myshopify.com/admin/api/2021-01/collects.json
+
+https://inikoo.myshopify.com/admin/api/2021-01/products.json
+
+
+
+https://cae4914bb0f1ce85fc106ada452b4ee6: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@inikoo.myshopify.com/admin/api/2021-01/collects.json
