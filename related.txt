@@ -1,0 +1,11 @@
+Adjust the available quantity of an inventory item by 5 at a single location
+
+POST /admin/api/#{api_version}/inventory_levels/adjust.json
+{
+"location_id": 905684977,
+"inventory_item_id": 808950810,
+"available_adjustment": 5
+}
+
+
+

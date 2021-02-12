@@ -17,3 +17,31 @@ https://inikoo.myshopify.com/admin/api/2021-01/products.json
 
 
 https://cae4914bb0f1ce85fc106ada452b4ee6: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@inikoo.myshopify.com/admin/api/2021-01/collects.json
+
+
+https://www.shopify.com/partners/blog/17056443-how-to-generate-a-shopify-api-token
+
+https://inikoo.myshopify.com/admin/oauth/authorize?client_id= cae4914bb0f1ce85fc106ada452b4ee6&scope=read_orders,write_products&redirect_uri="http://localhost/generate_token.php"
+
+
+
+
+// End points 
+
+https://cae4914bb0f1ce85fc106ada452b4ee6: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@inikoo.myshopify.com/admin/api/2021-01/custom_collections.json
+
+https://cae4914bb0f1ce85fc106ada452b4ee6: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@inikoo.myshopify.com/admin/api/2021-01/smart_collections.json
+
+
+curl --location --request POST 'https://{{api_key}}:{{api_password}}@{{store_name}}.myshopify.com/admin/api/{{api_version}}/custom_collections.json' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "custom_collection": {
+    "body": "foobar"
+  }
+}'
+
+
+
+
+// 
